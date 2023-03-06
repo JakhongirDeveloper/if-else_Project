@@ -9,4 +9,14 @@ string info=$"\n{ism} siz Kescha nomli qush borligini bilasizmi!\n";
 Console.WriteLine($"{info}\nKescha va sizning yoshingiz farqini natijada ko'ring!\n");
 int k_age = 3;
 int Age=yosh-k_age;
-Console.WriteLine($"{ism} ning yoshi Kescha yoshidan {Age} yoshga katta!\n");
+int aGE=k_age-yosh;
+
+
+if (yosh > k_age)
+{
+        Console.WriteLine($"{ism} ning yoshi Kescha yoshidan {Age} yoshga katta!\n");
+}
+else
+{
+        Console.WriteLine($"{ism} ning yoshi Kescha yoshidan {aGE} yoshga kichik!\n");
+}
